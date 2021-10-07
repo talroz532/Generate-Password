@@ -20,6 +20,7 @@ def main():
     while True:
         i = input()
         if i:
+            print("Exited the program successfully")
             break
         print("your password: " + generate_password())
 
